@@ -194,7 +194,6 @@ body {
 }
 
 
-
 .winning-cell::after {
   content: '';
   position: absolute;
@@ -210,9 +209,12 @@ body {
 
 
 .winner {
+  margin-left: 38%;
+  width: 21%;
+  color: rgb(240, 48, 48);
   margin-top: 30px;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgb(236, 236, 182);
   backdrop-filter: blur(5px);
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -241,12 +243,5 @@ body {
   animation: fadeIn 0.3s ease-out;
 }
 
-
-.game-container::after {
-  width: 15px;
-  height: 15px;
-  animation-duration: 15s;
-  animation-delay: -5s;
-}
 
 </style>
